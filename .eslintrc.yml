@@ -1,0 +1,9 @@
+env:
+  es2020: true
+extends:
+  - tuxsnct
+  - tuxsnct/react
+  - tuxsnct/typescript
+  - "plugin:@next/next/recommended"
+parserOptions:
+  project: ./tsconfig.json
