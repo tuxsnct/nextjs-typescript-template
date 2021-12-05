@@ -1,6 +1,7 @@
 {
   "name": "nextjs-typescript-template",
   "version": "1.0.0",
+  "private": true,
   "description": "Template for personal Next.js projects using TypeScript.",
   "keywords": [],
   "repository": {
@@ -13,13 +14,13 @@
     "email": "work@tuxsnct.com",
     "url": "https://www.tuxsnct.com/"
   },
-  "main": "src/index.js",
   "scripts": {
     "build": "next build",
     "dev": "next dev",
     "start": "next start",
     "lint": "eslint './**/*.{js,jsx,ts,tsx,json,yaml,yml,toml}'",
     "lint:fix": "npm run lint --fix",
+    "type": "tsc --noEmit",
     "prepare": "husky install",
     "postinstall": "husky install"
   },
