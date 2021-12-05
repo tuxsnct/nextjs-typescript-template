@@ -3,13 +3,13 @@ lockfileVersion: 5.3
 specifiers:
   '@commitlint/cli': 15.0.0
   '@commitlint/config-conventional': 15.0.0
-  '@next/eslint-plugin-next': 12.0.4
+  '@next/eslint-plugin-next': 12.0.7
   '@types/react': 17.0.37
   '@types/react-dom': 17.0.11
   chokidar-cli: 3.0.0
   cross-env: 7.0.3
   eslint: 7.32.0
-  eslint-config-next: 12.0.4
+  eslint-config-next: 12.0.7
   eslint-config-tuxsnct: latest
   husky: 7.0.4
   lint-staged: 12.1.2
@@ -30,13 +30,13 @@ dependencies:
 devDependencies:
   '@commitlint/cli': 15.0.0
   '@commitlint/config-conventional': 15.0.0
-  '@next/eslint-plugin-next': 12.0.4
+  '@next/eslint-plugin-next': 12.0.7
   '@types/react': 17.0.37
   '@types/react-dom': 17.0.11
   chokidar-cli: 3.0.0
   cross-env: 7.0.3
   eslint: 7.32.0
-  eslint-config-next: 12.0.4_97474a4dbadaeb5c2c29b7d438fbde20
+  eslint-config-next: 12.0.7_97474a4dbadaeb5c2c29b7d438fbde20
   eslint-config-tuxsnct: 3.4.2_eslint@7.32.0+typescript@4.5.2
   husky: 7.0.4
   lint-staged: 12.1.2
@@ -953,8 +953,8 @@ packages:
     resolution: {integrity: sha512-QtZ6X5c6Zqa7oWs5csEmZ7xy+gLdtRKKg02SOT5l0Ziea4P5IU8mSOCyNC4fZmXewcRVjpbY+yGqAAP7hJUfOA==}
     dev: false
 
-  /@next/eslint-plugin-next/12.0.4:
-    resolution: {integrity: sha512-3N+LG+wQQB0JLfMj4YKkefWnjcsFVBmixRWdzbVBnt/cxbVZ0izf+BR1MzvrPX1oaP0OrYk8X/9Mn9Yftuajvg==}
+  /@next/eslint-plugin-next/12.0.7:
+    resolution: {integrity: sha512-xk7eMjw4+roWWR/0ETIoToCNs2wdvCGgQUiUO390Rj33/82yxZsh+ODRSaFWkiKp8zHWQN5GCW+U5pfjt/gyQg==}
     dependencies:
       glob: 7.1.7
     dev: true
@@ -1334,26 +1334,6 @@ packages:
       - typescript
     dev: true
 
-  /@typescript-eslint/parser/4.33.0_eslint@7.32.0+typescript@4.5.2:
-    resolution: {integrity: sha512-ZohdsbXadjGBSK0/r+d87X0SBmKzOq4/S5nzK6SBgJspFo9/CUDJ7hjayuze+JK7CZQLDMroqytp7pOcFKTxZA==}
-    engines: {node: ^10.12.0 || >=12.0.0}
-    peerDependencies:
-      eslint: ^5.0.0 || ^6.0.0 || ^7.0.0
-      typescript: '*'
-    peerDependenciesMeta:
-      typescript:
-        optional: true
-    dependencies:
-      '@typescript-eslint/scope-manager': 4.33.0
-      '@typescript-eslint/types': 4.33.0
-      '@typescript-eslint/typescript-estree': 4.33.0_typescript@4.5.2
-      debug: 4.3.2
-      eslint: 7.32.0
-      typescript: 4.5.2
-    transitivePeerDependencies:
-      - supports-color
-    dev: true
-
   /@typescript-eslint/parser/5.4.0_eslint@7.32.0+typescript@4.5.2:
     resolution: {integrity: sha512-JoB41EmxiYpaEsRwpZEYAJ9XQURPFer8hpkIW9GiaspVLX8oqbqNM8P4EP8HOZg96yaALiLEVWllA2E8vwsIKw==}
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
@@ -1374,14 +1354,6 @@ packages:
       - supports-color
     dev: true
 
-  /@typescript-eslint/scope-manager/4.33.0:
-    resolution: {integrity: sha512-5IfJHpgTsTZuONKbODctL4kKuQje/bzBRkwHE8UOZ4f89Zeddg+EGZs8PD8NcN4LdM3ygHWYB3ukPAYjvl/qbQ==}
-    engines: {node: ^8.10.0 || ^10.13.0 || >=11.10.1}
-    dependencies:
-      '@typescript-eslint/types': 4.33.0
-      '@typescript-eslint/visitor-keys': 4.33.0
-    dev: true
-
   /@typescript-eslint/scope-manager/5.4.0:
     resolution: {integrity: sha512-pRxFjYwoi8R+n+sibjgF9iUiAELU9ihPBtHzocyW8v8D8G8KeQvXTsW7+CBYIyTYsmhtNk50QPGLE3vrvhM5KA==}
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
@@ -1390,35 +1362,9 @@ packages:
       '@typescript-eslint/visitor-keys': 5.4.0
     dev: true
 
-  /@typescript-eslint/types/4.33.0:
-    resolution: {integrity: sha512-zKp7CjQzLQImXEpLt2BUw1tvOMPfNoTAfb8l51evhYbOEEzdWyQNmHWWGPR6hwKJDAi+1VXSBmnhL9kyVTTOuQ==}
-    engines: {node: ^8.10.0 || ^10.13.0 || >=11.10.1}
-    dev: true
-
   /@typescript-eslint/types/5.4.0:
     resolution: {integrity: sha512-GjXNpmn+n1LvnttarX+sPD6+S7giO+9LxDIGlRl4wK3a7qMWALOHYuVSZpPTfEIklYjaWuMtfKdeByx0AcaThA==}
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
-    dev: true
-
-  /@typescript-eslint/typescript-estree/4.33.0_typescript@4.5.2:
-    resolution: {integrity: sha512-rkWRY1MPFzjwnEVHsxGemDzqqddw2QbTJlICPD9p9I9LfsO8fdmfQPOX3uKfUaGRDFJbfrtm/sXhVXN4E+bzCA==}
-    engines: {node: ^10.12.0 || >=12.0.0}
-    peerDependencies:
-      typescript: '*'
-    peerDependenciesMeta:
-      typescript:
-        optional: true
-    dependencies:
-      '@typescript-eslint/types': 4.33.0
-      '@typescript-eslint/visitor-keys': 4.33.0
-      debug: 4.3.2
-      globby: 11.0.4
-      is-glob: 4.0.3
-      semver: 7.3.5
-      tsutils: 3.21.0_typescript@4.5.2
-      typescript: 4.5.2
-    transitivePeerDependencies:
-      - supports-color
     dev: true
 
   /@typescript-eslint/typescript-estree/5.4.0_typescript@4.5.2:
@@ -1440,14 +1386,6 @@ packages:
       typescript: 4.5.2
     transitivePeerDependencies:
       - supports-color
-    dev: true
-
-  /@typescript-eslint/visitor-keys/4.33.0:
-    resolution: {integrity: sha512-uqi/2aSz9g2ftcHWf8uLPJA70rUv6yuMW5Bohw+bwcuzaxQIHaKFZCKGoGXIrc9vkTJ3+0txM73K0Hq3d5wgIg==}
-    engines: {node: ^8.10.0 || ^10.13.0 || >=11.10.1}
-    dependencies:
-      '@typescript-eslint/types': 4.33.0
-      eslint-visitor-keys: 2.1.0
     dev: true
 
   /@typescript-eslint/visitor-keys/5.4.0:
@@ -2727,19 +2665,19 @@ packages:
       source-map: 0.6.1
     dev: true
 
-  /eslint-config-next/12.0.4_97474a4dbadaeb5c2c29b7d438fbde20:
-    resolution: {integrity: sha512-uBOHBjYaRF0MaS5feB7lFOncHhSrtFxZy/oud6pEW/wn/JUQtZWeH/J4JyODBfX+G7h9mttgHLZNmUjNJis6Kw==}
+  /eslint-config-next/12.0.7_97474a4dbadaeb5c2c29b7d438fbde20:
+    resolution: {integrity: sha512-kWOaym5qjyzR190zFKkZMaHetmiRORmzJiKML7Kr9CL213S6SwkrHHCEL58TRdpx0NA+HzrsFR9zgcV2pvV2Yg==}
     peerDependencies:
-      eslint: ^7.23.0
+      eslint: ^7.23.0 || ^8.0.0
       next: '>=10.2.0'
       typescript: '>=3.3.1'
     peerDependenciesMeta:
       typescript:
         optional: true
     dependencies:
-      '@next/eslint-plugin-next': 12.0.4
+      '@next/eslint-plugin-next': 12.0.7
       '@rushstack/eslint-patch': 1.1.0
-      '@typescript-eslint/parser': 4.33.0_eslint@7.32.0+typescript@4.5.2
+      '@typescript-eslint/parser': 5.4.0_eslint@7.32.0+typescript@4.5.2
       eslint: 7.32.0
       eslint-import-resolver-node: 0.3.6
       eslint-import-resolver-typescript: 2.5.0_a820dc868cc8cd66d8297be6779b9035
