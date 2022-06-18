@@ -31,8 +31,8 @@
   },
   "devDependencies": {
     "@next/eslint-plugin-next": "12.0.7",
-    "@types/react": "17.0.38",
-    "@types/react-dom": "17.0.11",
+    "@types/react": "17.0.47",
+    "@types/react-dom": "17.0.17",
     "chokidar-cli": "3.0.0",
     "cross-env": "7.0.3",
     "eslint": "8.6.0",
